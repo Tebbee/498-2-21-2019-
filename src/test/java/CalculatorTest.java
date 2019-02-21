@@ -12,7 +12,7 @@ public class CalculatorTest {
     @Test
     public void testsubtraction() throws Exception{
         double sum = Calculator.subtract(1.0,2.0);
-        Assertions.assertEquals(-1.0,sum);
+        Assertions.assertEquals(-1,sum);
     }
 
 
