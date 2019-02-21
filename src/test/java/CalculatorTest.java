@@ -6,13 +6,13 @@ public class CalculatorTest {
     @Test
     public void testAddition() throws Exception{
         double sum = Calculator.add(1.0,2.0);
-        Assertions.assertEquals(3.0,3.0);
+        Assertions.assertEquals(3.0,sum);
     }
 
     @Test
     public void testsubtraction() throws Exception{
-        double sum = Calculator.add(1.0,2.0);
-        Assertions.assertEquals(-1.0,-1.0);
+        double sum = Calculator.subtract(1.0,2.0);
+        Assertions.assertEquals(-1.0,sum);
     }
 
 
